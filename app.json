@@ -20,7 +20,7 @@
       "description": "PrivateKey of Faucet Account that you want to assign."
     },
     "NEM_GENERATION_HASH": {
-      "value": "__SET_NETWORK_GENERATION_HASH",
+      "value": "__SET_NETWORK_GENERATION_HASH__",
       "description": "network generation hash"
     },
     "NEM_API_URL": {
@@ -32,7 +32,6 @@
       "description": "For link url."
     },
     "NEM_MOSAIC_FQN": {
-      "value": "nem:xem",
       "required": false,
       "description": "Distribution mosaic FQN."
     },
@@ -57,6 +56,10 @@
     },
     "NEM_WAIT_HEIGHT": {
       "value": "0"
+    },
+    "BASE_URL": {
+      "required": true,
+      "description": "Application hosted url ex) hoge.herokuapp.com"
     },
     "RECAPTCHA_CLIENT_SECRET": {
       "required": false,
