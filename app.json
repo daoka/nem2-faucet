@@ -68,6 +68,10 @@
     "RECAPTCHA_SERVER_SECRET": {
       "required": false,
       "description": "(Optional) disabled ReCaptcha if this is blank."
+    },
+    "API_HTTPS": {
+      "value": 0,
+      "description": "set other value if use https"
     }
   },
   "addons": [],
